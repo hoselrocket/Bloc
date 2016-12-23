@@ -26,12 +26,13 @@
     list-style: none;
 	padding: 20px;
 	margin: 20px 0 0;
+    background-color: #fff;
     
-}
+    
 }
 .dropit .dropit-open .dropit-submenu { 
     display: block; 
-    background: #34495E;
+    background-color: #FFFFFF;
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
     border-radius: 4px;
 

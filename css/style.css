@@ -278,7 +278,7 @@ html, body{
   .testimonials img {
    height: 65px;
    width: 65px;
-   border-radius:50%;
+   border-radius: 50%;
    float: left;
    display: inline-block;
    margin:20px 10px 0 0;
@@ -292,7 +292,7 @@ html, body{
    float: left;
    display: inline-block;
    text-align: left;
-   font-size:13px;
+   font-size: 13px;
    margin-top: 30px;
  }
 
@@ -303,10 +303,6 @@ html, body{
  .left-nav {
    height: 100%;
    width:280px;
-   color: #FFFFFF;
-   background: #34495E;
-   background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
-   float:left;
    position: absolute;
    -webkit-transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;
@@ -370,6 +366,7 @@ html, body{
  }
  .left-nav .site-logo {
    padding:20px 0;
+   /*border-image: 5px;*/
    background:#34495E;
    display:block;
    text-align: center;
@@ -474,7 +471,7 @@ html, body{
    padding:20px;
  }
  /* Larger Mobile Devices */
- @media (min-width:460px) {
+ @media (min-width: 460px) {
    .content {
      padding:1.5em 1%;
      float:right;
@@ -482,8 +479,8 @@ html, body{
      position: relative;
    }
    .content-item {
-     width:46%;
-     margin:0 2% 25px;
+     width: 46%;
+     margin: 0 2% 25px;
      float:left;
      display:block;
    }
@@ -504,8 +501,9 @@ html, body{
      margin:0 1% 25px;
    }
  }
+
 /* Laptops and Desktops */
- 
+  @media (min-width:992px) {
    .content {
      padding:1.5em 1%;
      float:right;
@@ -561,15 +559,13 @@ html, body{
       #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);
    color: #FFFFFF;
    height: 150px;
-   position: absolute;
-/*This bottom style appears to have nuked the footer entirely*/
-   bottom: 100%;
+   position: relative;
    overflow: hidden;
    z-index: 0;
  }
  footer p, footer nav ul {
-   font-size:14px;
-   font-weight:100;
+   font-size: 14px;
+   font-weight: 100;
    text-align: center;
    margin: 10px auto 0;
  }
@@ -584,7 +580,7 @@ html, body{
  footer .right-footer-block {
    background-color: transparent;
  }
- footer .logo{
+ footer .logo {
    padding: 2.35em 0;
    margin: 0 auto;
    display: block;
@@ -604,6 +600,7 @@ html, body{
      background-color: #3498DB;
    }
    footer .logo{
-     padding: 2em 0 2em 1.5em;
+       padding: 1em 0 2em 1.5em;
+     /*padding: 2em 0 2em 1.5em;*/
    }
  }
